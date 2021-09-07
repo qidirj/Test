@@ -1,0 +1,102 @@
+@font-face {
+    font-family: ChFont;
+    src: url(msyh.ttc);
+    /*Supported: Chinese*/
+}
+
+@font-face {
+    font-family: EnFont;
+    src: url(LSANS.TTF);
+    /*Supported: English*/
+}
+
+h1 {
+    font-size: 40px;
+    font-family: EnFont, ChFont;
+    text-align: center;
+}
+
+h2 {
+    font-size: 34px;
+    font-family: EnFont, ChFont;
+    text-align: center;
+}
+
+h3 {
+    font-size: 28px;
+    font-family: EnFont, ChFont;
+    text-align: left;
+}
+
+h4 {
+    font-size: 24px;
+    font-family: EnFont, ChFont;
+    text-align: left;
+}
+
+h5 {
+    font-size: 21px;
+    font-family: EnFont, ChFont;
+    text-align: left;
+}
+
+h6 {
+    font-size: 18px;
+    font-family: EnFont, ChFont;
+    text-align: left;
+}
+
+body {
+    font-size: 15px;
+    font-family: EnFont, ChFont
+}
+
+p {
+    font-size: 15px;
+    font-family: EnFont, ChFont
+}
+
+div {
+    font-size: 15px;
+    font-family: EnFont, ChFont
+}
+
+.studioname {
+    font-family: EnFont, ChFont;
+    text-align: center;
+}
+
+.news {
+    font-family: EnFont, ChFont;
+    text-align: center;
+}
+
+.discryption {
+    font-family: EnFont, ChFont;
+    text-align: center;
+}
+
+blockquote{
+    width:384px;
+    margin: 0 auto;
+    /*margin-left: 32px;*/
+    border-left-width:10px;
+    border-left-color: #e0e0e0;
+    border-left-style:solid;
+    border-right-width:10px;
+    border-right-color: #e0e0e0;
+    border-right-style:solid;
+    /*text-align: left;*/
+}
+
+a {
+    color: #0080ff;
+}
+
+a:visited {
+    color: #004080;
+}
+
+a:hover {
+    color: #40c0ff;
+}
